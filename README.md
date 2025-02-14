@@ -126,7 +126,6 @@
             </div>
         </div>
     </div>
-    
     <div id="message-box" class="message-box"></div>
 </body>
 </html>
