@@ -81,16 +81,13 @@
                 'Kak Meta': 'Halooo Kak Metaaaa, Selamat Valentine yaaakkk! Semoga hari kakakkk menyenangkan selaluu...🥰 I Love U kak Metaa',
                 'Kak Evan': 'Happy Valentine Kak epaannn! Jangan lupa makan enak hari ini. Hokben kita? I Love U kak Epan',
                 'Kak G': 'Haiii Kakk G akuuu...Selamattt harii kasih sayang (yang tertanggal - soalnya setiap hari hari kasih sayang kan kakkk hehehehehe😁 I Love U kak G'
-            };
-            
+            };            
             document.getElementById("main").style.display = "none";
             const messageBox = document.getElementById("message-box");
             messageBox.innerHTML = `<p>${messages[name]}</p><button class='btn back-btn' onclick='goBack()'>Balek</button>`;
-            messageBox.style.display = "block";
-            
+            messageBox.style.display = "block";            
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
-
         function goBack() {
             document.getElementById("message-box").style.display = "none";
             document.getElementById("main").style.display = "block";
